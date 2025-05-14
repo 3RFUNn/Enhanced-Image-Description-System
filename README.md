@@ -40,11 +40,7 @@ The system utilizes a deep learning architecture combining:
 2.  **Caption Decoding:** A **Transformer Decoder** model generates the caption word by word, conditioned on the image features provided by the CLIP encoder.
 3.  **Training:** While the CLIP encoder is pre-trained, the Transformer decoder and the interface layers between the encoder and decoder are **trained** within this notebook on the Flickr8k dataset. This allows the model to learn the specific task of generating captions relevant to the dataset's style and content.
 
-<p align="center">
-  <img src="https://placehold.co/600x350/E8E8E8/777777?text=Model+Architecture%5Cn(CLIP+Encoder+%E2%86%92+Transformer+Decoder)" alt="Model Architecture Diagram">
-  <br>
-  <small>Simplified Model Architecture</small>
-</p>
+
 
 ---
 
